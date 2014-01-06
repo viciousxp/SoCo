@@ -1,0 +1,28 @@
+{
+  "name": "soco",
+  "version": "0.0.1",
+  "description": "Social Communities - A social networking module to handle users, feeds, activity-feeds, follow/unfollow, tagging, and full featured search. SoCo is built on top of Neo4J as its database.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/viciousxp/SoCo"
+  },
+  "keywords": [
+    "Social",
+    "Network",
+    "Social",
+    "Communities",
+    "Feeds",
+    "Activity-Feeds"
+  ],
+  "author": "Ramee Mossa",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "670f997da83576b19eaba33057e2f178106b14bc"
+}
