@@ -6,6 +6,9 @@
   "directories": {
     "test": "test"
   },
+  "dependencies": {
+    "neo4j": "1.1.0"
+  },
   "devDependencies": {
     "mocha": "",
     "should": ""
