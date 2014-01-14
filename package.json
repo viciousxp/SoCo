@@ -2,16 +2,20 @@
   "name": "soco",
   "version": "0.0.1",
   "description": "Social Communities - A social networking module to handle users, feeds, activity-feeds, follow/unfollow, tagging, and full featured search. SoCo is built on top of Neo4J as its database.",
-  "main": "index.js",
+  "main": "index",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "neo4j": "1.1.0"
+    "neo4j": "1.1.0",
+    "winston": "0.7.2",
+    "request": "2.31.0",
+    "mkdirp": "0.3.5"
   },
   "devDependencies": {
-    "mocha": "",
-    "should": ""
+    "mocha": "*",
+    "should": "*",
+    "yuidocjs": "*"
   },
   "scripts": {
     "test": "mocha test/*.js"
