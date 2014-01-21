@@ -254,6 +254,16 @@ describe('Node', function (){
                 done();
               })
           });
+          it('Should delete "Matrix" index', function (done) {
+              var matrixIndex = new soco.Index({
+                name: 'Matrix',
+                indexType: 'node'
+              })
+              matrixIndex.delete(function (err) {
+                should.not.exist(err);
+                done();
+              })
+          });
       });
       after(function (done) {
           nodeObjects[0].delete(true, function (err) {
