@@ -25,8 +25,6 @@ if [[ ! -d lib/$DIR ]]; then
     wget --no-check-certificate -O lib/neo4j/testing/$DELETE_DB_PLUGIN_JAR https://github.com/downloads/jexp/neo4j-clean-remote-db-addon/$DELETE_DB_PLUGIN_JAR
     ln -s ../testing/$DELETE_DB_PLUGIN_JAR lib/neo4j/plugins/$DELETE_DB_PLUGIN_JAR
     cat >> $SERVER_PROPERTIES_FILE <<EOF
-org.neo4j.server.thirdparty_jaxrs_classes=org.neo4j.server.extension.test.delete=/cleandb
-org.neo4j.server.thirdparty.delete.key=supersecretdebugkey!
 EOF
 fi
 
