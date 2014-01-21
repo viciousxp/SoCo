@@ -23,7 +23,7 @@ describe('Neo4J', function(){
         it('Should get server version - db.REST()', function(done) {
             db.REST('GET', '/', function(err, status, body) {
                 should.not.exist(err);
-                body.neo4j_version.should.equal('1.9.2');
+                body.neo4j_version.should.be.String
                 done();
             });
         });

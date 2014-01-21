@@ -7,7 +7,6 @@ describe('GraphDB', function(){
     it('Should get server version - soco.Graph.getVersion()', function(done) {
       soco.Graph.getVersion(function(err, version) {
         should.not.exist(err);
-        version.should.equal('1.9.2');
         done();
       });
     });
