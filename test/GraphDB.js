@@ -1,5 +1,5 @@
 var assert = require('assert')
-  , soco = require('../../soco')
+  , soco = require('../index')
   , should = require('should');
 
 describe('GraphDB', function(){

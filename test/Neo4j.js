@@ -1,5 +1,5 @@
 var assert = require('assert')
-  , soco = require('../../soco')
+  , soco = require('../index')
   , db = new soco.Neo4j()
   , should = require('should')
   , Node = require('./Node')
