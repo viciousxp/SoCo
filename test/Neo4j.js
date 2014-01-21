@@ -6,11 +6,9 @@ var assert = require('assert')
 
 var Queries = [];
 
-//create node
 Queries.push({
     query: 'CREATE (n) RETURN n'
 })
-// get node 18
 Queries.push({
     query: 'START n = node({id}) MATCH n-[rel?]-() RETURN rel, n',
     params: {
